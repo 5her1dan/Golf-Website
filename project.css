@@ -1,0 +1,97 @@
+/* Created by: Sheridan Schanaman */
+
+header, nav, main, footer, aside { display: block; } 
+
+* { box-sizing: border-box; } 
+
+#wrapper { min-width: 960px; 
+           font-family: Tahoma, Geneva, sans-serif;
+           color: #242c0e; }
+
+
+body { margin: 0;
+       background-color: #d3dad8; }
+
+/* Header */
+      
+header { background-color: #656f3f;
+         background-image: url(images/golfLogo.png);
+         background-position: bottom right;
+         background-repeat: no-repeat;
+         height: 100px;
+         text-align: left middle;
+         color: #ffffff; 
+         padding:10px;
+         margin: 0;
+         border-bottom: 2px solid #000000;}
+         
+/* Nav */
+         
+nav { float: left;
+      width: 125px;
+      background-color: #d3dad8; } 
+
+nav a:link { color: #242c0e; } 
+
+nav a:visited { color: #242c0e; } 
+
+nav a:hover, nav a:focus { color: #eeeeee; } 
+
+nav a { text-decoration: none; 
+        font-size: 1.15em; } 
+        
+nav li { line-height: 2; }
+         
+/* Aside */    
+
+aside { float: right;
+        width: 200px;
+        background-color: #d3dad8;
+        color: #242c0e; }
+        
+aside h3 { text-align: center;
+           margin-bottom: 5px; } 
+
+aside li { margin: 5px;
+           line-height: 2;
+           font-size: .90em; 
+           text-align: left; }
+aside a:link, aside a:visited {color:blue; }
+aside a:focus, aside a:hover { color: black; }  
+
+
+/* Main element */
+
+main { margin: 0 210px 0 135px;
+       padding: 1px 10px 20px 10px; 
+       background-color: #ffffff; }
+
+main a:link, main a:visited {color: blue; }
+main a:focus, main a:hover { color: black; } 
+
+       
+h2 { border-bottom: 1px solid #656f3f;
+     color: #242c0e; } 
+
+#imgFloat { margin: 5px;
+            float: right; }
+            
+#topLink { font-size: .80em; }
+
+#club { float: right;
+        margin: 5px; } 
+        
+#hidden {float: right;
+         margin: 5px; } 
+            
+           
+main dt { font-weight: bold; 
+          text-decoration: underline; }
+
+
+/* Footer */
+       
+footer { text-align: center;
+         font-size: .75em;
+         padding-top: 5px;
+         clear: both; }
